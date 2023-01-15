@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BrowserTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.TestLayer.Test_Amazon_SignUp_Page">
+        <methods>
+          <include name="check_lnk1_PrivacyNotice"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.TestLayer.Test_Amazon_SignUp_Page -->
+    </classes>
+  </test> <!-- BrowserTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
